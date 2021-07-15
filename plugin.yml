@@ -1,0 +1,5 @@
+name: warps
+version: 1.0.0
+author: refaltor
+main: refaltor\warps\Main
+api: 3.0.0
