@@ -10,7 +10,7 @@ use refaltor\warps\commands\warp;
 
 class Main extends PluginBase
 {
-    public WarpAPI $api;
+    public $api;
 
     public function onEnable(): void
     {
