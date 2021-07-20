@@ -9,7 +9,7 @@ use pocketmine\utils\Config;
 
 class WarpAPI
 {
-    public Plugin $plugin;
+    public $plugin;
 
     public function __construct(Plugin $plugin)
     {
