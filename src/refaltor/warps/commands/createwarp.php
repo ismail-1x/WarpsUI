@@ -11,7 +11,7 @@ use refaltor\warps\forms\CustomForm;
 
 class createwarp extends Command
 {
-    public Plugin $plugin;
+    public $plugin;
 
     public function __construct(Plugin $plugin, string $name, string $description = "", string $usageMessage = null, array $aliases = [])
     {
