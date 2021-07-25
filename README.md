@@ -30,8 +30,8 @@ message_create_warp_error_already_exist:
 ```
 
 ## Permissions
-create warps: ```create.warps.use```<br>
-delete warps: ```delete.warps.use```
+create warps: ```warps.create.use```<br>
+delete warps: ```warps.delete.use```
 
 ### Commands
 
