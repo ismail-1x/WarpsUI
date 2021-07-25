@@ -16,7 +16,7 @@ class createwarp extends Command
     public function __construct(Plugin $plugin, string $name, string $description = "", string $usageMessage = null, array $aliases = [])
     {
         parent::__construct($name, $description, $usageMessage, $aliases);
-        $this->setPermission('create.warps.use');
+        $this->setPermission('warps.create.use');
         $this->setAliases(['cw']);
         $this->plugin = $plugin;
     }
