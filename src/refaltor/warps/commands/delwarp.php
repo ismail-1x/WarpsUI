@@ -17,7 +17,7 @@ class delwarp extends Command
     public function __construct(Plugin $plugin, string $name, string $description = "", string $usageMessage = null, array $aliases = [])
     {
         parent::__construct($name, $description, $usageMessage, $aliases);
-        $this->setPermission('delete.warps.use');
+        $this->setPermission('warps.delete.use');
         $this->setAliases(['dw']);
         $this->plugin = $plugin;
     }
